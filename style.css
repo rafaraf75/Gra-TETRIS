@@ -1,0 +1,54 @@
+.gameGrid{
+    width: 200px;
+    height: 400px;
+    background-color: olivedrab;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    width: 18px;
+    height: 18px;
+    border: 1px solid black;
+}
+
+.upNext {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    background-color: dimgray;
+}
+
+.nextTetromino{
+    width: 18px;
+    height: 18px;
+    border: 1px solid darkgray;
+}
+
+#gameScreen{
+    display: flex;
+    display: -webkit-flex;
+}
+
+.gameInfo{
+    margin-left: 20px;
+}
+
+#startStopButton{
+    padding: 1rem 1.5rem;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+
+}
+
+.tetrimino{
+    
+    background-color: blue
+    }
+    
